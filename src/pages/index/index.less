@@ -1,0 +1,71 @@
+.index {
+    padding: 20px;
+    background: #f4f4f4;
+    min-height: 100vh;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+    
+    .title {
+      font-size: 36px;
+      font-weight: bold;
+      color: #333;
+    }
+  }
+  
+  .note-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .note-item {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    
+    .note-image {
+      width: 100%;
+      height: 400px;
+    }
+    
+    .note-content {
+      padding: 16px;
+      
+      .note-title {
+        font-size: 28px;
+        color: #333;
+        line-height: 1.4;
+        margin-bottom: 12px;
+      }
+      
+      .note-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .note-author {
+          font-size: 24px;
+          color: #666;
+        }
+        
+        .note-likes {
+          display: flex;
+          align-items: center;
+          gap: 4px;
+          
+          .like-count {
+            font-size: 24px;
+            color: #ff2442;
+          }
+          
+          .like-text {
+            font-size: 24px;
+            color: #999;
+          }
+        }
+      }
+    }
+  } 
