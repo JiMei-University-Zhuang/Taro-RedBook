@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.DS_Store
+.temp/
+.rn_temp/
+deploy_versions/
+.env
+
