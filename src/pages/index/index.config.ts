@@ -1,4 +1,5 @@
-export default definePageConfig({
-  navigationBarTitleText: 'AI绘画',
-  usingComponents: {}
-})
+export default {
+  navigationBarTitleText: '发现',
+  usingComponents: {
+  }
+}

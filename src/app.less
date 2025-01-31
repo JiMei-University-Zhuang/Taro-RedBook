@@ -1,0 +1,18 @@
+// 全局动画样式
+@keyframes pulse {
+  0% { transform: scale(0.8); opacity: 0.5; }
+  50% { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(0.8); opacity: 0.5; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+// 全局变量
+:root {
+  --primary-color: #07c160;
+  --text-color: #333;
+  --bg-color: #f4f4f4;
+}

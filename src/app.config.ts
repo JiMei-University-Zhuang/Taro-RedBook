@@ -1,11 +1,12 @@
 export default defineAppConfig({
   pages: [
-    'pages/index/index'
+    'pages/index/index',      // 社交广场主页
+    'pages/ai-drawing/index'  // AI绘画页面
   ],
   window: {
     backgroundTextStyle: 'light',
     navigationBarBackgroundColor: '#fff',
-    navigationBarTitleText: 'WeChat',
+    navigationBarTitleText: '创作社区',
     navigationBarTextStyle: 'black'
   },
   lazyCodeLoading: "requiredComponents"

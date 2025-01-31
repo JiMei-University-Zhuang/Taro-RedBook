@@ -78,4 +78,13 @@ export class PosterService {
   }
 }
 
-export const posterService = new PosterService() 
+export const posterService = new PosterService()
+
+// 海报相关服务
+export const generatePoster = async (params: any) => {
+  // 实现海报生成逻辑
+}
+
+export const savePoster = async (posterData: any) => {
+  // 实现海报保存逻辑
+} 
